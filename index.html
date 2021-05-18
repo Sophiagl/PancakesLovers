@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pancakes Lovers</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+<style>
+
+ .Lovers {
+   color:rgb(212, 111, 122);
+   font-family:Home Education DEMO;
+   font-size:2.7cm;
+   position: relative;
+  top:-29px;
+  left:0px;
+  }
+
+.Pancakes {
+  color:rgb(176, 76, 88);
+  font-family: Muthiara -Demo Version-;
+  font-size: 1.80cm;
+  position: relative;
+  top:-30px;
+  left:0px;
+}
+
+h1 {
+  line-height: 160%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color:#f2cdd4;
+  font-size:15.8px;
+}
+
+.Regresar{
+  font-family:sans-serif;
+}
+    
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  background-color:#EFBFC8 ;
+}
+
+th, td {
+  padding: 5px;
+}
+
+#Queson, #origen, #preparación, .índice, #Topings {
+  font-family: DK Lemon Yellow Sun;
+  font-size: 0.70cm;
+  color:rgb(176, 76, 88)
+}
+
+
+h4 {
+  font-family: DK Lemon Yellow Sun;
+}
+
+body{
+  margin-left:320px;
+  margin-right: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  border: 5px solid; color: white;
+}
+
+#Imagen-principal{
+  border:0px;
+  position: relative;
+  top:-15px;
+  left:0px;
+  z-index:1;
+}
+
+
+.Lista {
+  display: flex;
+  justify-content:center;
+}
+
+li{
+  margin: 0 .75rem;
+}
+
+#Que_son { background-color:#E8A6B3;
+      margin: 15px 10px 15px 10px;
+       padding: 30px;
+       border-radius: 20px;
+       box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+#Origen_pancakes, #preparación_{ background-color:#EFBFC8;
+  margin: 15px 10px 15px 10px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+#pancakes-topings {background-color:#E8A6B3;
+      margin: 15px 10px 15px 10px;
+       padding: 30px;
+       width: 93.5%;
+       height: 500px;
+       overflow:auto;
+       border-radius: 20px;
+       box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+#Titulo{
+  position: relative;
+  z-index: 2;
+}
+
+a:link {
+  color:rgba(52, 79, 176, 0.815);
+}
+
+a:visited { 
+  color:rgba(130, 42, 145, 0.74);
+}
+
+a:hover, a:focus {
+  background-color:#E8A6B3 ;
+}
+
+#Instagram{
+  border:0px;
+  position: fixed;
+  top:60px;
+  left:1300px;
+  z-index:1;
+}
+
+
+.tz-gallery {
+    padding: 20px;
+    text-align: center;
+    width:700px ;
+
+    padding: 5px;
+    position: relative;
+    top:-45px;
+    left:-152px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 5px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+
+    </style>
+
+</head>
+<body>
+  <a target=”_blank”  href="https://www.instagram.com/pancakeslovers_dijon/?hl=es"><img id="Instagram" src="https://cdn.icon-icons.com/icons2/1558/PNG/512/353424-instagram-logo_107474.png" alt="Logo instagram" width=50></a>
+ <br> <center><img id="Imagen-principal" src="https://i.pinimg.com/originals/f5/a5/18/f5a518a190d57e1bf0baa3d9f18f9b0e.jpg" alt="Torre de pancakes con syrup, fresas y arandanos" width="200"/></center>
+ 
+ <h1><div id="Titulo"><center class="Pancakes">Pancakes</center> 
+ <center class="Lovers">Lovers</center></div></h1>
+ <h4><strong><center>Haz click en cada imagen</center></strong></h4>
+ <br>
+</div>
+</p>
+  <div class="container gallery-container">
+    <br>
+    
+   <center> <div class="tz-gallery">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://64.media.tumblr.com/ef1df74047867f32656e882f15b4a3b5/61f6a003155ba9f2-fb/s640x960/0d6ebd0f587415b0e0ded497dbb7c6ef11c4e937.jpg">
+                    <img src="https://64.media.tumblr.com/ef1df74047867f32656e882f15b4a3b5/61f6a003155ba9f2-fb/s640x960/0d6ebd0f587415b0e0ded497dbb7c6ef11c4e937.jpg" alt="Pancakes de arandanos">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://image.freepik.com/foto-gratis/panqueques-mantequilla-chocolate-nueces_140725-3497.jpg">
+                    <img src="https://image.freepik.com/foto-gratis/panqueques-mantequilla-chocolate-nueces_140725-3497.jpg" alt="Pancakes de chocolate y nueces">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <a class="lightbox" href="https://i.pinimg.com/564x/ae/bb/2f/aebb2fbebfc4fc554b1d2699a6bb29a6.jpg">
+                  <img src="https://i.pinimg.com/564x/ae/bb/2f/aebb2fbebfc4fc554b1d2699a6bb29a6.jpg" alt="Pancakes morados con arandanos">
+              </a>
+          </div>
+            <div class="col-sm-6 col-md-4">
+              <a class="lightbox" href="https://i.pinimg.com/564x/a2/3c/c8/a23cc8bde8544570fbe16d9893e1b687.jpg">
+                  <img src="https://i.pinimg.com/564x/a2/3c/c8/a23cc8bde8544570fbe16d9893e1b687.jpg" alt="Cereal de pancakes">
+              </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="https://image.freepik.com/free-photo/front-view-sweet-pancakes-tower-composition_23-2148654086.jpg">
+                <img src="https://image.freepik.com/free-photo/front-view-sweet-pancakes-tower-composition_23-2148654086.jpg" alt="Pancakes con chocolate">
+            </a>
+        </div>
+            <div class="col-sm-6 col-md-4">
+              <a class="lightbox" href="https://i.pinimg.com/564x/88/3b/4b/883b4b1412e580167b1dccab5a15c79a.jpg">
+                  <img src="https://i.pinimg.com/564x/88/3b/4b/883b4b1412e580167b1dccab5a15c79a.jpg" alt="Pancakes con crema">
+              </a>
+          </div>
+
+        </div>
+
+    </div>
+</div></center>
+<p id="Regresar"> <justify> Probablemente haz escuchado acerca de los <strong>"pancakes" o "panqueques"</strong>, 
+    incluso haz podido probrar estos mismos; si no lo haz hecho esta es una
+    <strong><em>señal</em></strong> para que lo hagas y pruebes esta <strong> increíble sensación</strong> en tu boca, con diferentes 
+    sabores e ingredientes que te harán sentir vivo. <em>¿Qué estás esperando?</em> te invito a revisar esta increíble página sobre 
+    este <strong>maravilloso invento</strong>, ponte cómodo y preparate para un viaje de emociones, diversión y sabores.
+    <strong>¡Bienvenido!</strong></justify> </p>
+  <br> 
+</center> <p>
+<center class="índice"><b>índice:</b></center>
+
+<br>
+<center><table> 
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th><center>TEMA</center></th>
+        </tr>
+        <tr>
+            <td><center>1.</center></td>
+            <td><center><a href="#Queson">¿Qué son?</a></center></td>
+        </tr>
+        <tr>
+            <td><center>2.</center></td>
+           <td><center><a href="#origen"> Origen</a></center></td>
+        </tr>
+       
+        <tr>
+            <td><center>3.</center></td>
+            <td><center><a href="#Topings">Topings para tus pancakes</a></center></td>
+        </tr>
+        <tr>
+            <td><center>4.</center></td>
+            <td><center><a href="#preparación">Preparación</a></center></td>
+        </tr>
+
+    </thead>
+</table></center> </p>
+<br>
+<div id="Que_son">
+<p><center><strong id="Queson">¿Qué son?</strong></center>
+
+  <p><justify> Los pancakes son <strong>tortas</strong> muy <em>delgadas y blandas,</em> son conocidas en gran parte del mundo debido a su 
+  <strong>delicioso sabor</strong> unico y especial. Podemos prepararlos de distintas maneras, pero usualmente la manera
+  más común para prepararlos es formar una mezcla de <strong>huevos, leche, harina, mantequilla y azúcar.</strong> </justify>
+    <br>
+  <center><img src="https://image.freepik.com/free-photo/selective-focus-shot-sliced-vegan-pancakes-with-fruits_181624-20527.jpg" alt="Fotografía pancakes" width="300"/></center>
+  <h4><center><a href="#Regresar">Regresar al inicio</a></center></h4>
+</div>
+
+    <br>
+    <div id="Origen_pancakes">
+  <center><strong id="origen">Origen</strong></center>
+
+  <p><justify>Según <em><b>historiadores gastronómicos</b></em> esta receta fue creada por los romanos y eran conocidos como <strong>"Alita Dolcia"</strong>
+   Estos fueron creados durante el siglo <strong>IV y V d.C</strong>, donde en el tiempo de cuaresma <em>(40 días)</em> la gente no podia
+   consumir carne, manteca, huevos, leche o queso; para la gente era muy dificil soportar el hambre durante tanto tiempo
+   por lo tanto se las <b>ingeniaron</b> para crear una una pasta a base de <b>harina de trigo y agua</b> que se cocinaba extendiéndola
+   en capas muy finas sobre piedras muy calientes, la cual también era vendida en las plazas a las demás personas.</justify></p>
+   <br>
+  <justify>Esta receta se fue <b>popularizando</b> con el paso de los años, donde se empezó a mejorar su receta y preparación, hasta
+  crear un "pancake fino"; segun el lugar donde se preparé el pancake tiene diferentes topings <b>protagonistas,</b> pero aun
+  así es disfrutado por gran cantidad de personas inagurandose incluso <b>El día del pancake</b>, conocido también como
+  <b>Pancake Tuesday</b> o <b>Shrove Tuesday</b> celebrado el <b>martes</b> previo al <em>miércoles de Cenizas</em></justify>
+   <br>
+   <center><img src="https://cdn.virily.com/wp-content/uploads/2018/08/grci.jpg" alt="Imagen antigua de los pancakes" width="300"/></center>
+   <h4><center><a href="#Regresar">Regresar al inicio</a></center></h4>
+   </div>
+        <br>
+        <div id="pancakes-topings">
+   <center><strong id="Topings">TOPINGS PARA TUS PANCAKES:</strong></center>
+
+   <br>
+   <justify>Los puedes comer de <strong>infinitas formas,</strong> agregandole diversos ingredientes todo depende de tus <strong>gustos y tu creatividad,</strong>
+   no existen límites <em>(incluso muchas veces quedan bien dandoles un toque salado)</em>, por lo tanto, puedes usar ingredientes 
+   tanto <strong>dulces como salados</strong> para disfrutar este gran invento culinario, deja volar tu imaginación y prueba nuevos topings</justify></p>
+  <center><img src="https://image.freepik.com/free-photo/front-view-yummy-round-pancakes-with-cream-red-strawberries-fruit-cake-bake_140725-22129.jpg" alt="Pancakes con fresas y azúcar pulverizada" width="300"/></center>
+   <h4></h4> </p>
+    <center>
+      
+        <table>
+            <thead>
+               
+                <tr>
+                    <td>-Syrup y mantequilla</td>
+                    <td>-Helado</td>
+                </tr>
+                <tr>
+                    <td>-Nutella y fresas</td>
+                    <td>-Manzana y mantequilla de maní</td>
+                </tr>
+                <tr>
+                    <td>-Jamón y queso</td>
+                    <td>-Chispas de chocolate, fruta y queso crema</td>
+                </tr>
+                <tr>
+                    <td>-Mantequilla de maní con arandanos</td>
+                    <td>-Bacon y huevo</td>
+                </tr>
+                <tr>
+                    <td>-Arequipe, banano y azúcar pulverizada</td>
+                    <td>-Mermelada</td>
+                </tr>
+                <tr>
+                    <td>-Chips de chocolate, crema y galletas oreo</td>
+                    <td>-Canela y leche condensada</td>
+                </tr>
+                <tr>
+                    <td>-Fresas y crema chantilly</td>
+                    <td>-Chocolate y masmellos</td>
+                </tr>
+                <tr>
+                    <td>-Mango y piña</td>
+                    <td>-Huevo y aguacate</td>
+                </tr>
+                <tr>
+                    <td>-Crema chantilly y chispas de colores</td>
+                    <td>-Nueces y miel</td>
+                </tr>
+                
+            </thead>
+        </table>
+      
+    </center>
+    <h4><center><a href="#Regresar">Regresar al inicio</a></center></h4>
+  </div>
+    <br>  
+</p>
+<p>
+  <div id="preparación_">
+<center><strong id="preparación">Preparación</strong></center>
+<p><justify>Existen bastantes formas de preparar pancakes, así que puedes seguir la receta que te quede más fácil
+ o te parezca mejor, aquí te dejaré una lista, si quieres saber como preparar ese tipo de pancakes, solo da click
+ en el texto o imagen:
+       <center><ul class="Lista">
+           <li><a target=”_blank”  href="https://youtu.be/JUeCNvCAnL8">Pancakes Básicos</a> 
+            <li><a target=”_blank”  href="https://youtu.be/mSMdadgE48Y">Pancakes Fluffy</a>
+            <li><a target=”_blank”  href="https://youtu.be/iII-V7KfIm8">Pancakes Saludables</a>
+            <li><a target=”_blank”  href="https://youtu.be/3hwPEDmv3Nk">Pancakes Red velvet</a>
+        </ul></center> 
+    </justify></p>
+        <br>
+       <center> <a target=”_blank”  href="https://youtu.be/JUeCNvCAnL8"><img src="https://image.freepik.com/free-photo/front-view-fluffy-pancakes-tower-with-raspberries_23-2148354700.jpg" alt="imagen pancakes básicos" width="150"/></a> 
+        <a target=”_blank”  href="https://youtu.be/mSMdadgE48Y"><img src="https://i.pinimg.com/originals/4f/70/1d/4f701d4a6447cd84f7c4d14dcdd24549.png" alt="imagen pancakes esponjosos" width="185"/></a>
+        <a target=”_blank”  href="https://youtu.be/iII-V7KfIm8"><img src="https://image.freepik.com/free-photo/fluffy-blueberry-pancakes-breakfast-white-table_181624-28238.jpg" alt="imagen pancakes esponjosos" width="150"/></a> 
+        <a target=”_blank”  href="https://youtu.be/3hwPEDmv3Nk"><img src="https://image.freepik.com/free-photo/side-view-red-pancakes-with-cream-marshmallows-plate-isolated_171337-12498.jpg" alt="imagen pancakes básicos" width="150"/></a>
+
+        <h4><center><a href="#Regresar">Regresar al inicio</a></center></h4>
+        <br> 
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
+</html>
